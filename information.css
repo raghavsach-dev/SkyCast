@@ -1,0 +1,173 @@
+#background_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.8);
+    border-bottom: 2px solid #007BFF;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.header img {
+    height: 100px;
+    width: 110px;
+}
+
+.first {
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #014171;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+.second {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #F3C004;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.main-card {
+    margin-top: 50px !important;
+    width: 35%; 
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.top-card{
+    margin-top: 40px !important;
+    width: 15%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+
+}
+
+.top-card {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.block {
+    width: 52%; 
+    margin: 0 auto; 
+    display: flex;
+    gap: 200px;
+}
+
+.block h1{
+    color: #014171;
+}
+
+.under-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.sky-img {
+    height: 160px;
+    width: auto;
+    margin-right: 20px; 
+}
+
+.therm-img {
+    height: 160px;
+    width: auto;
+    margin-right: 20px; 
+}
+
+.temperature {
+    font-size: 40px;
+    color: #014171;
+    margin-left: 30px; 
+}
+
+.main-card h1{
+    color: #014171;
+}
+
+
+.typecard {
+    display: inline;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.typecard img{
+    margin-bottom: -30px;
+    padding-bottom: 0px;
+}
+
+.typecard h2{
+    margin-top: 0px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #014171;
+    padding-top: 0px;
+}
+
+.thermcard img{
+    height: 90px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.thermcard h2{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #014171;
+    padding-top: 0px;
+
+}
+
+.message{
+    font-family: 'Nunito';
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: -5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #11241F;
+
+}

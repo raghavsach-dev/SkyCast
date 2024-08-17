@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="information.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop id="background_video">
+        <source src="./background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="header">
+        <img src="./logo.jpeg">
+        <h1 class="first">Weather </h1>
+        <h1 class="second">Information</h1>
+    </div>
+    
+    <div class="block">
+    <div class="top-card"><h1>📍<span class="place">Delhi</span></h1></div>
+    <div class="top-card"><h1>📆<span class="date">17/08/2024</span></h1></div>
+    </div>
+    
+
+
+    <div class="main-card">
+        <div class="under-card">
+            <div class="thermcard"><img class="therm-img" src="https://www.shutterstock.com/image-vector/thermometers-icon-different-zones-vector-600nw-1012317115.jpg"><h2 class="temperature">30°C</h2></div>
+            
+            <div class="typecard"><img class="sky-img" src="https://openweathermap.org/img/wn/01d@2x.png"><h2 class="daytype">Sunny</h2></div>
+        </div>
+        <p class="message">Clear sky: The sun called, it’s working overtime today!</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
